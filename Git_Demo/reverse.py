@@ -1,4 +1,4 @@
-#REverse a string
+#Reverse a string
 def reverse(string):
     reverse_string=string[::-1]
     print("Reverse of a string is: ",reverse_string)
