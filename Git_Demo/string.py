@@ -17,3 +17,12 @@ str=input("Enter a String: ")
 print("Length of a entered string: ",len(str))
 reverse=str[::-1]   
 print("Reverse string : ",reverse)
+
+#using function
+def reverse(str):
+    reverse_str=str[::-1]   
+    print("Reverse string : ",reverse_str)
+
+str=input("Enter a String: ")
+print("Length of a entered string: ",len(str))
+reverse(str)
