@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class reverse_string 
+public class palindrome_string 
 {
     public static void main(String[] args)
     {
