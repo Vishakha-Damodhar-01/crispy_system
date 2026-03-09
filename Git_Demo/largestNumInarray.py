@@ -5,7 +5,14 @@ def largestNum(l):
   for i in l:
     if i>largest:
       largest=i
-  print(largest)
+  print("Largest number from array: ",largest)
+
+def smallestNum(l):
+  smallest=l[0]
+  for i in l:
+    if i<smallest:
+      smallest=i
+    print("smallest number from array: ",smallest)
 
 try:
     n = int(input("Enter the number of elements added in the list: "))
@@ -18,6 +25,7 @@ try:
     print("Original List:", l)
     # Call function
     largestNum(l)
+    smallestNum(l)
 
 except ValueError:
     print("Invalid input. Please enter only integers.")
