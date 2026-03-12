@@ -12,6 +12,9 @@ int main()
     int c;
     c=a+b;
     cout<<"Addition of 2 numbers is: "<<c<<endl;
+    cout<<"Subtraction of 2 numbers is: "<<a-b<<endl;
+    cout<<"Multiplication of 2 numbers is: "<<a*b<<endl;
+    cout<<"Division of 2 numbers is: "<<a/b<<endl;
     return 0;
 }
 
