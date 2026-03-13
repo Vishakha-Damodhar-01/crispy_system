@@ -20,7 +20,10 @@ int main()
 
 // output:
 // Enter value of a
-// 5
-// Enter value of b
 // 10
+// Enter value of b
+// 5
 // Addition of 2 numbers is: 15
+// Subtraction of 2 numbers is: 5
+// Multiplication of 2 numbers is: 50
+ // Division of 2 numbers is:2
