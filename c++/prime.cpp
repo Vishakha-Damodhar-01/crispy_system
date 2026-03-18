@@ -5,22 +5,25 @@ using namespace std;
 
 int main()
 {
-    int n,i,count=0;
-    cout<<"enter a number: "<<endl;
+    int n;
+    cout<<"Enter a number for checking wheather it is prime or not: "<<endl;
     cin>>n;
-    for(i=2;i<n;i++)
-    {
-        count=1;
-        break;
+    int c=0;
+    for (int i=2;i<=n/2;i++)
+    {      
+        if(n%i==0)
+        {
+            c=1;
+            break;
+        }
     }
-    
-    if(count==0)
+    if(c==0)
     {
-        cout<<n<< " is a Prime number ";
+        cout<<n<<" is a prime number";
     }
     else
     {
-        cout<<n<<" is not a prime number ";
+        cout<<n<<" is not a prime number";
     }
     return 0;
 }
