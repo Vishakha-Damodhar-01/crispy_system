@@ -18,5 +18,14 @@ int main()
     {
         cout<<num[i]<<" ";
     }
+    cout<<"Counting prime numbers in array : "<<endl;
+    int count=0;
+    for(int i=0;i<n;i++)
+    {
+        for(j=2;j<=i/2;j++)
+        {
+            cout<<i;
+        }
+    }                
     return 0;
 }
