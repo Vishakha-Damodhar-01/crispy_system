@@ -1,3 +1,4 @@
+// Calculate speed using formula  speed=(distance/time)*18/5
 public class speed
 {
     public static void main(String[] args) 
