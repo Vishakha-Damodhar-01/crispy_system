@@ -4,7 +4,6 @@
 using namespace std;
 int main() {
     int n,rev=0,r;
-        rev=rev*10+r;
     cout<<"Enter a number: "<<endl;
     cin>>n;
    
