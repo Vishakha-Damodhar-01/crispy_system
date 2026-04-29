@@ -1,7 +1,7 @@
 // TCS question
 using System;
 
-public class HelloWorld
+public class Gym
 {
     public static void Main(string[] args)
     {
