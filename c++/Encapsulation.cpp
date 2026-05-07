@@ -1,3 +1,7 @@
+// Encapsulation is used for the data security purpose, like here all the other information regarding teacher is public,
+// but they don't want to show salary publically, that is why used the get and set methid, so that only the desired person can see it
+
+// Encapsulatio==capsule==Data Security
 
 #include <iostream>
 #include <string>
