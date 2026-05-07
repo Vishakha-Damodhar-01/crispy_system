@@ -6,8 +6,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+
 class Teacher
 {
+    //properties/ Attributes
     private:
         double salary;
     
@@ -16,6 +19,8 @@ class Teacher
         string dept;
         string subject;
         double s;
+
+        //Methods
         void changeDept(string newDept)
         {
             dept=newDept;
