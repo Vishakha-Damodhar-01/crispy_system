@@ -47,7 +47,9 @@ class Teacher
             cout<<"Dept: "<<dept<<endl;
 
         }
-};
+}; 
+//--> its a syntax that class should ended up with semi colon.
+
 int main() 
 {
     Teacher t1("Vishakha","CSE","CND",50000);
