@@ -22,10 +22,10 @@ class Teacher
     // left side-- objects and right side-- parameters
     // we use pointer (this-->) to the left side
 
-    this-->name=name;
-    this-->dept=dept;
-    this-->subject=subject;
-    this-->salary=salary;
+    this->name=name;
+    this->dept=dept;
+    this->subject=subject;
+    this->salary=salary;
 }
 
 void getInfo()
