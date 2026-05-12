@@ -9,6 +9,7 @@ class Teacher
     
     // parametrised constructor
 
+
     public:
         Teacher(string n,string d,string s,double sal)
         {
@@ -21,21 +22,25 @@ class Teacher
         string name;
         string dept;
         string subject;
-        double s;
+        // double s;
 
         void changeDept(string newDept)
         {
             dept=newDept;
         }
-        
-        void setsalary(double s)
-        {
-            salary=s;
-        }
-        double getsalary()
-        {
-            return salary;
-        }
+
+
+        // Here parameters are passed directly , that's why no need to add the set get method, as its for the hidden salary
+        // void setsalary(double s)
+        // {
+        //     salary=s;
+        // }
+        // double getsalary()
+        // {
+        //     return salary;
+        // }
+
+
         void getInfo()
         {
             cout<<"Name: "<<name<<endl;
