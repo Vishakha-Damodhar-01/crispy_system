@@ -68,6 +68,9 @@ Salary: 50000
 Custom constructor
 Name: Vishakha
 Dept: CSE
-
+Salary:50000
 
 // the same method is applicable to both the forms
+this is how data availabity works
+when we make the multiple copy of data, in that case if any server is unable to perform and load the data
+the server arrange the data from some other data base and work dynamically
