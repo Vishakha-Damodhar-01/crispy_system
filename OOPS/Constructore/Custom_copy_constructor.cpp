@@ -1,4 +1,5 @@
 // Parameterized constructor, where parameters pass with the when the objects get created
+// Custom copy constructor we have shown here 
 #include <iostream>
 #include <string>
 using namespace std;
