@@ -1,4 +1,5 @@
 // Parameterized constructor, where parameters pass with the when the objects get created
+// The default constructor is used when we supposed just called the other object through one object
 #include <iostream>
 #include <string>
 using namespace std;
