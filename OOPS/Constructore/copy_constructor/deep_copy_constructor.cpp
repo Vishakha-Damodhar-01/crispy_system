@@ -33,7 +33,7 @@ class student
         {
             cout<<"**"<<endl;
             this->name=obj.name;
-            cgpaPtr=new double;   //-->here made change like with pointer name added new keyword and there data type
+            cgpaPtr=new double;   //-->here made change like with pointer_name and added new keyword and there data type
             *cgpaPtr=*obj.cgpaPtr;   //--> here ppointer name and obj.pointer_name where "" * "" mark on boththe sides is important
         }
 
