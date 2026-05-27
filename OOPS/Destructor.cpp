@@ -29,7 +29,7 @@ class student
 
         ~student()
         {
-            cout<<"I am deconstructor"<<endl;
+            cout<<"I am destructor"<<endl;
             delete cgpaPtr;
         }
     
@@ -51,4 +51,4 @@ int main()
 &&
 Name: Vishakha
 Cgpa: 8.32
-I am deconstructor
+I am destructor
