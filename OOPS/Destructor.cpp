@@ -2,6 +2,7 @@ when deconstrictor delete they didn't notify and not even delete the ptr, they d
   so there will no memory leak (memory using for unusable things lateron ) which is very important as industry level and big organizations
 most must asked question in the company 
 
+as like we used **new** keyword for creating the new ptr or any data in heap memory, we use **delete** keyword for the deleig memeory inside heap memory 
 
 #include<iostream>
 #include<string>
