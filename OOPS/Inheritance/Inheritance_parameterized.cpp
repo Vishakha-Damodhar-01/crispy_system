@@ -28,7 +28,7 @@ class student :public person
         int roll_no;
 
         //after calling parent class , we call child class constructor
-        student(string name, double cgpa, int roll_no): person(name, cgpa) 
+        student(string name, double cgpa, int roll_no): person(name, cgpa)    //-->just mention the *variable name here*, no need of datatype
         {
             cout<<"I am child class constructor..\n";
             this->roll_no=roll_no;
@@ -63,7 +63,7 @@ class person
     
         //simple non-paramterized constructor
         //firstly parent class constructor called even though we creates the child class constructor
-        person(string n, double c) : name(n), cgpa(c)
+        person(string n, double c) : name(n), cgpa(c)   //--> added the short terms only, look at this, like *name as n* ,*cgpa as c* etc
         {
             cout<<"Parent class constructor..\n";
             this->name=name;
@@ -80,7 +80,8 @@ class student :public person
         int roll_no;
 
         //after calling parent class , we call child class constructor
-        student(string n, double c, int r) : person(n, c), roll_no(r)
+        student(string n, double c, int r) : person(n, c), roll_no(r)   //-> //-->just mention the *variable name here*, no need of datatype but look we have not
+                                                                                    // added the brackets here 
         {
             cout<<"I am child class constructor..\n";
             this->roll_no=roll_no;
