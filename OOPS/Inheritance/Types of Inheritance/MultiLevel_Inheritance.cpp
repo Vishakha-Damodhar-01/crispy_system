@@ -1,4 +1,6 @@
 // Multi- Level Inheritance means -->person to student to Gradstudent like this
+// here we have worked on multiple level of inheritance --> Two parents one chils,, its an very easy exapmle
+// in comapny we worked on billions of files like this
 #include<iostream>
 #include<string>
 using namespace std;
