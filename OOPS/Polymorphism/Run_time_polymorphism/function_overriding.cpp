@@ -27,6 +27,7 @@ class student:public Person
     void show()
     {
         cout<<"child class\n";
+        cout<<Name<<" "<<age;
     }
 };
 
@@ -38,3 +39,7 @@ int main()
     s1.show();
     return 0;
 }
+
+// output:
+child class
+Tanu 22
