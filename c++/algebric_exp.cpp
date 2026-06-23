@@ -7,8 +7,14 @@ int main()
   cin>>a;
   cout<<"enter a: "<<endl;
   cin>>b;
-  ans=a+b;
+  add=a+b;
   cout<<"ans: "<<ans<<endl;
+  sub=a-b;
+  cout<<"SUb: "<<sub <<endl;
+  mul=a*b;
+  cout<<"Multiply: "<<mul<<endl;
+  div=a/b;
+  cout<<"Division: "<<div<<endl;
   return0;
 }
   
