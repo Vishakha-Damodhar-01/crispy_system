@@ -5,17 +5,11 @@ public class HelloWorld
 { 
     public static void Main(string[] args) 
     { 
-        Console.WriteLine("Enter a number:"); 
-        
-        int num = Convert.ToInt32(Console.ReadLine()); 
-
-        if (num % 2 == 0) 
-        { 
-            Console.WriteLine("Even"); 
-        } 
-        else 
-        { 
-            Console.WriteLine("Odd"); 
-        } 
+        Console.WriteLine("Enter a:");
+        int a = Convert.ToInt32(Console.ReadLine()); 
+        Console.WriteLine("Enter b:");
+        int b = Convert.ToInt32(Console.ReadLine()); 
+        int add=a+b;
+        Console.WriteLine("Addition: ", add);
     } 
 }
