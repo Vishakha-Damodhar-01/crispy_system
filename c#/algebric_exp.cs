@@ -13,3 +13,11 @@ public class HelloWorld
         Console.WriteLine("Addition: ", add);
     } 
 }
+
+
+//output:
+Enter a:
+10
+Enter b:
+5
+Addition: 
