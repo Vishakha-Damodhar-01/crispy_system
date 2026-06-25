@@ -11,9 +11,12 @@ public class HelloWorld
         int b = Convert.ToInt32(Console.ReadLine()); 
         int add=a+b;
         Console.WriteLine("Addition: ", add);
+        int sub=a-b;
+        Console.WriteLine("Subtraction: ", sub);
+        int mul=a*b;
+        Console.WriteLine("Multiplication: ", mul);
     } 
 }
-
 
 //output:
 Enter a:
