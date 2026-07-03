@@ -6,8 +6,16 @@ class Main {
         int a=sc.nextInt();
         System.out.println("Enter b: ");
         int b=sc.nextInt();
-        int c=a+b;
-        System.out.println("Addition is: "+c);
+        int add=a+b;
+        int sub=a-b;
+        int mul=a*b;
+        int div=a/b;
+        int mod=a%b;
+        System.out.println("Addition is: "+add);
+        System.out.println("Subtraction is: "+sub);
+        System.out.println("Multiplication is: "+mul);
+        System.out.println("Division is: "+div);
+        System.out.println("Modulus is: "+mod);
     }
 }
 
