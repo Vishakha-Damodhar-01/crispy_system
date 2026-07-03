@@ -20,7 +20,11 @@ class Main {
 }
 
 Enter a: 
-66
+975
 Enter b: 
-45
-Addition is: 111
+665
+Addition is: 1640
+Subtraction is: 310
+Multiplication is: 648375
+Division is: 1
+Modulus is: 310
