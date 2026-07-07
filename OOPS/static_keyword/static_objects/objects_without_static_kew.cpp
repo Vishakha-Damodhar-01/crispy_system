@@ -1,5 +1,5 @@
 // Without static keyword of object
-remember the fow of the output
+remember the flow of the output
 
 #include<iostream>
 #include<string>
