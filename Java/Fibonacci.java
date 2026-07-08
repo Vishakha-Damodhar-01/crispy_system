@@ -8,9 +8,10 @@ class Main {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number till which you want the fibonacci series...");
         int n=sc.nextInt();
+        System.out.println("The Fibonacci series will be: ");
         for(int v=0;v<=n;v++)
         {
-            System.out.println(i+" ");
+            System.out.print(i+" ");
             int m=i+j;
             i=j;
             j=m;
@@ -23,6 +24,7 @@ class Main {
 The fibonnaci series will be: 
 Enter a number till which you want the fibonacci series...
 5
+    
 0 
 1 
 1 
