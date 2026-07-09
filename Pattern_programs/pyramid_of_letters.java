@@ -1,3 +1,4 @@
+//Here we can make the multiple patterns of the name of the letters too
 public class pattern
 {
     public static void main(String[] args)
