@@ -1,5 +1,8 @@
 What is the armstrong number
-  The sum of cube of all the digits present in number equals to the number itself , this is called as Armstrong number
+The sum of cube of all the digits present in number equals to the number itself , this is called as Armstrong number
+  
+For example, 153 is an Armstrong number because it has 3 digits, and 1³ + 5³ + 3³ = 1 + 125 + 27 = 153. Similarly, 
+1634 is an Armstrong number because it has 4 digits, and 1⁴ + 6⁴ + 3⁴ + 4⁴ = 1 + 1296 + 81 + 256 = 1634
 
 
   import java.util.Scanner;
