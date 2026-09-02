@@ -14,3 +14,7 @@ class Solution {
         return dp[n-1]; 
     }
 }
+
+
+//output:
+https://leetcode.com/problems/climbing-stairs/description/   -->this is the leetcode problem
