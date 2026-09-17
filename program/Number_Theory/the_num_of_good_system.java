@@ -1,3 +1,5 @@
+// Problem -1994 -- The number of Good subsets
+
 class Solution {
     public int numberOfGoodSubsets(int[] nums) {
         int[] primes = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
