@@ -9,3 +9,14 @@ class Solution {
         return missing;
     }
 }
+
+
+//output:
+Input: nums = [3,0,1]
+Output: 2
+
+Input: nums = [0,1]
+Output: 2
+
+Input: nums = [9,6,4,2,3,5,7,0,1]
+Output: 8
