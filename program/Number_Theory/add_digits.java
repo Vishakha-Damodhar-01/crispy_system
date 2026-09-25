@@ -1,4 +1,5 @@
 //This is the case from which you are able to solve the problem
+// we can do normal process for this too
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {
