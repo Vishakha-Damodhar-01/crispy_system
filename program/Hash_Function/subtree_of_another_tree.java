@@ -35,3 +35,11 @@ class Solution {
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
+
+
+//output:
+Input: root = [3,4,5,1,2], subRoot = [4,1,2]
+Output: true
+
+Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
+Output: false
