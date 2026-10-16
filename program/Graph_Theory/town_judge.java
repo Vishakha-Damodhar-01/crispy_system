@@ -1,3 +1,6 @@
+// Graph theory
+// Problem 997: Find the town judge
+
 class Solution {
     public int findJudge(int n, int[][] trust) {
         // Track the net trust score for each person.
@@ -25,3 +28,16 @@ class Solution {
         // If no person meets the judge criteria, return -1
         return -1;
     }
+
+
+//output:
+
+Input: n = 2, trust = [[1,2]]
+Output: 2
+    
+Input: n = 3, trust = [[1,3],[2,3]]
+Output: 3
+
+Input: n = 3, trust = [[1,3],[2,3],[3,1]]
+Output: -1
+ 
