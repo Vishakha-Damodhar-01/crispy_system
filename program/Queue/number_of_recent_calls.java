@@ -25,3 +25,14 @@ class RecentCounter {
         return requests.size();
     }
 }
+
+
+//output:
+Input
+["RecentCounter", "ping", "ping", "ping", "ping"]
+[[], [1], [100], [3001], [3002]]
+Output
+[null, 1, 2, 3, 3]
+
+
+link-->>https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue
