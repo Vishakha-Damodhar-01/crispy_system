@@ -1,5 +1,6 @@
 Queue  -->>>   Problem no 1700: The number of studnets unable to eat the luncb
-
+problem --> https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/description/?envType=problem-list-v2&envId=queue
+  
 
   class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
@@ -24,3 +25,8 @@ Queue  -->>>   Problem no 1700: The number of studnets unable to eat the luncb
         return count[0] + count[1];
     }
 }
+
+
+//output:
+Input: students = [1,1,0,0], sandwiches = [0,1,0,1]
+Output: 0 
