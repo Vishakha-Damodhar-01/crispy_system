@@ -2,18 +2,26 @@ problem 141 easy
   Two pointer
   linked_list_cycle.java
 
-  class ListNode:
 
-  def __init__(self, x):
-    self.val = x
-    self.next = None
-
-
-def hasCycle(head: Optional[ListNode]) -> bool:
-  slow = fast = head
-  while fast and fast.next:
-    slow = slow.next
-    fast = fast.next.next
-    if slow == fast:
-      return True
-  return False
+  
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return false;
+        }
+        
+        ListNode slow = head;
+        ListNode fast = head;
+        
+        while (fast != null && fast.next != null) {
+            slow = slow.next;          // Move 1 step
+            fast = fast.next.next;     // Move 2 steps
+            
+            if (slow == fast) {
+                return true;           // Cycle detected
+            }
+        }
+        
+        return false;                  // No cycle
+    }
+}
